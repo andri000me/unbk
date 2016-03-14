@@ -1,0 +1,3 @@
+var bulan = new Array("Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "Nopember", "Desember");
+ window.setTimeout("jam()",1000); function jam() { var tanggal = new Date(); setTimeout("jam()",1000); document.getElementById("clock-widget").innerHTML = ("0" + tanggal.getHours()).slice(-2)+":"+("0" + tanggal.getMinutes()).slice(-2)+":"+("0" + tanggal.getSeconds()).slice(-2);}
+ window.setTimeout("tanggal()",1000); function tanggal() { var tanggal = new Date(); setTimeout("tanggal()",1000); document.getElementById("date-widget").innerHTML = tanggal.getDate()+" "+bulan[tanggal.getMonth()]+" "+tanggal.getFullYear();}

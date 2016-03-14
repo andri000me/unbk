@@ -1,0 +1,1 @@
+countdown(2013,6,6, 16,0,0, "<center><strong>Latihan 2 telah selesai. Latihan selanjutnya akan dilaksanakan pada 10 s.d. 13 Juni 2013</strong></center>")

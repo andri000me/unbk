@@ -1,0 +1,1 @@
+countdown(2013,6,29, 16,0,0, "<center><strong>Sesi Pendaftaran Jalur Umum telah selesai.</strong></center>")
