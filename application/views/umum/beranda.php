@@ -2,16 +2,15 @@
 	<div class="row" id="header-isi">
 		<div class="col-sm-12">
 			<div>
-				<h1>Tutorial</h1>
+				<h1>Beranda</h1>
 			</div>
 		</div>
 	</div>
-	<div class="row info-content" id="video1">
-    <div class="col-sm-12">
+
         <div class="row" id="header-isi">
           <div class="col-sm-12">
             <div>
-                <h2>Tutorial dan Cara Install Server UNBK 2016</h2>
+                <h3>Sinkronisasi Final untuk jenjang SMA/MA/SMK</h3>
             </div>
           </div>
         </div>
@@ -20,16 +19,52 @@
                 <div class="panel-body">
                      <div class="row">
                         <div class="col-sm-12">
-                            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
-                                <iframe allowfullscreen="" src="https://www.youtube.com/embed/L6DQ2AN5UjM?feature=player_detailpage" frameborder="0" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" height="500"></iframe>
+                            <div class="flex-video widescreen" style="margin: 0 auto;text-align:left;">
+                              
+                              <p align="left">
+								
+							  <b>Tahap Sinkronisasi UNBK SMA/MA/SMK 31 Maret 2016 - 2 April 2016</b>
+							<ul><li type="1">Pastikan koneksi internet, server dan klien terhubung dengan baik</li>
+							<li type="1">Silakan unduh <a title="Starter176_net35" href="http://dispendik.surabaya.go.id/UNBKStarter_v176_net35_160401.zip"><b>Starter baru V_176</b></a>, jalankan dan pastikan dalam kondisi aktif dengan tanda titik (...)</li>
+							<li type="1">Jalankan VM lalu unduh file patching <a title="Patching final SMA/MA/SMK" href="http://dispendik.surabaya.go.id/PATCH_v160331.zip"><b>PATCH_v160331.zip</b></a></li>
+                                
+								
+                                <li type="1">Lakukan Patching dengan langkah sebagai berikut :</li>
+                                <ul>
+								<li>Extract file patching yang telah diunduh kedalam folder desktop VM.</li>
+                                <li>Pastikan internet di dalam VM sudah berjalan.</li>
+                                <li>Tutup CBTSync sebelum menjalankan proses patching</li>
+								<li>Jalankan file "CBTUpdate" yang terdapat di dalam folder patching</li>
+								<li>Proktor menginput ID Server baru</li>
+								<li>Tunggu sampai keterangan patching berhasil, lalu tekan enter.</li>
+								</ul>
+								
+                                <li type="1">Buka CBTSync lalu tekan submit dengan memasukan ID Server yang baru lalu tekan submit</li>
+                                
+								
+                                <li type="1">Jika Status AKTIF silakan lakukan sinkronisasi dengan langkah sebagai berikut</li>
+                                <ul>
+								<li>Masuk ke tab "Backup & Hapus" lalu lakukan backup database dan hapus database</li>
+                                <li>Restart CBTSync setelah melakukan proses hapus</li>
+								<li>Masukan ID Server lalu tekan submit(Pastikan Status Aktif)</li>
+								<li>Masuk ke tab "Status Download" klik tombol refresh status</li>
+								<li>Klik tombol sinkronisasi</li>
+								<li>Silakan menunggu sampai data 9 selesai dan restart CBTSync</li>
+								</ul>
+								<li type="1">Silakan menunggu jadwal UNBK untuk dapat rilis token</li></p>
+							</ul>
+                              <p align="left">Catatan :<br />
+							    - Jadwal sinkronisasi bisa dilihat pada web <a href="http://unbk.kemdikbud.go.id/" target="_blank">UNBK Kemdikbud</a><br>
+                                - Untuk data 5 dan data 6 memiliki kapasitas cukup besar sehingga membutuhkan bandwith yang stabil.<br />
+                                - Jika memerlukan bantuan remote silakan install <a title="Teamviewer" href="http://dispendik.surabaya.go.id/TeamViewer_surabaya.exe"><b>Team Viewer</b></a> di PC anda</p>
                             </div>
                         </div>
                     </div>  
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    
+
 </div>
 	<!--
 	<div class="col-sm-12">

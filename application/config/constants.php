@@ -1,6 +1,6 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-define('URL_STATIC', 'http://222.124.169.6/unbk/static2015');
+define('URL_STATIC', 'http://202.154.13.117/static2015');
 /*
 |--------------------------------------------------------------------------
 | File and Directory Modes

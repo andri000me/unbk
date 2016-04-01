@@ -8,26 +8,44 @@
 </div>
 
 
-
-
-	<div class="row info-content">
+	
+	
         <div class="col-sm-6">
             <a href="<?php echo site_url('sekolahunbk/lihat/smp/umum');?>">
               <div class="panel panel-success">
                 <div class="panel-heading">
-                  <h3 class="panel-title">Data UNBK SMP/MTs</h3>
+                  <h3 class="panel-title">Data UNBK SMP</h3>
                 </div>
                 <div class="panel-body">
                     <div class="icon" style="border:none; float:left; margin-right:10px;">
-                        <img src="<?php echo URL_STATIC;?>/img/icon_smp.png" height="45">
+                        <img src="<?php echo URL_STATIC;?>/img/workstation1.png" height="45">
                     </div>
                     <div>
-                        <p class="fg-color-black">Data UNBK untuk sekolah jenjang SMP/MTs</p>
+                        <p class="fg-color-black">Data UNBK untuk sekolah jenjang SMP</p>
                     </div>
                 </div>
               </div>
             </a>
           </div>
+		  
+
+        <div class="col-sm-6">
+            <a href="<?php echo site_url('sekolahunbk/lihat/mts/umum');?>">
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Data UNBK MTS</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="icon" style="border:none; float:left; margin-right:10px;">
+                        <img src="<?php echo URL_STATIC;?>/img/workstation1.png" height="45">
+                    </div>
+                    <div>
+                        <p class="fg-color-black">Data UNBK untuk sekolah jenjang MTS</p>
+                    </div>
+                </div>
+              </div>
+            </a>
+          </div>  
 
       
         <div class="col-sm-6">
@@ -38,7 +56,7 @@
                 </div>
                 <div class="panel-body">
                     <div class="icon" style="border:none; float:left; margin-right:10px;">
-                        <img src="<?php echo URL_STATIC;?>/img/icon_sma.png" height="45">
+                        <img src="<?php echo URL_STATIC;?>/img/workstation2.png" height="45">
                     </div>
                     <div>
                         <p class="fg-color-black">Data UNBK untuk sekolah jenjang SMA</p>
@@ -48,6 +66,24 @@
             </a>
           </div>
 
+		  <div class="col-sm-6">
+            <a href="<?php echo site_url('sekolahunbk/lihat/ma/umum');?>">
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Data UNBK MA</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="icon" style="border:none; float:left; margin-right:10px;">
+                        <img src="<?php echo URL_STATIC;?>/img/workstation2.png" height="45">
+                    </div>
+                    <div>
+                        <p class="fg-color-black">Data UNBK untuk sekolah jenjang MA</p>
+                    </div>
+                </div>
+              </div>
+            </a>
+          </div>
+		  
           <div class="col-sm-6">
             <a href="<?php echo site_url('sekolahunbk/lihat/smk/umum');?>">
               <div class="panel panel-warning">
@@ -56,7 +92,7 @@
                 </div>
                 <div class="panel-body">
                     <div class="icon" style="border:none; float:left; margin-right:10px;">
-                        <img src="<?php echo URL_STATIC;?>/img/icon_smk.png" height="45">
+                        <img src="<?php echo URL_STATIC;?>/img/workstation2.png" height="45">
                     </div>
                     <div>
                         <p class="fg-color-black">Data UNBK untuk sekolah jenjang SMK</p>
@@ -65,62 +101,5 @@
               </div>
             </a>
         </div>
-    </div>
+    
 	
-	<div class="col-sm-6">
-            <a href="<?php echo site_url('sekolahunbk/petugas/smp/umum');?>">
-              <div class="panel panel-success">
-                <div class="panel-heading">
-                  <h3 class="panel-title">Proktor & Teknisi SMP</h3>
-                </div>
-                <div class="panel-body">
-                    <!--
-					<div class="icon" style="border:none; float:left; margin-right:10px;">
-                        <img src="<?php echo URL_STATIC;?>/img/icon_smp.png" height="45">
-                    </div>
-					-->
-                    <div>
-                        <p class="fg-color-black">Proktor & Teknisi UNBK untuk sekolah jenjang SMP</p>
-                    </div>
-                </div>
-              </div>
-            </a>
-          </div>
-	<div class="col-sm-6">
-            <a href="<?php echo site_url('sekolahunbk/petugas/sma/umum');?>">
-              <div class="panel panel-info">
-                <div class="panel-heading">
-                  <h3 class="panel-title">Proktor & Teknisi SMA</h3>
-                </div>
-                <div class="panel-body">
-                    <!--<div class="icon" style="border:none; float:left; margin-right:10px;">
-                        <img src="<?php echo URL_STATIC;?>/img/icon_sma.png" height="45">
-                    </div>-->
-                    <div>
-                        <p class="fg-color-black">Proktor & Teknisi UNBK untuk sekolah jenjang SMA</p>
-                    </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-        <div class="col-sm-6">
-            <a href="<?php echo site_url('sekolahunbk/petugas/smk/umum');?>">
-              <div class="panel panel-warning">
-                <div class="panel-heading">
-                  <h3 class="panel-title">Proktor & Teknisi SMK</h3>
-                </div>
-                <div class="panel-body"><!--
-                    <div class="icon" style="border:none; float:left; margin-right:10px;">
-                        <img src="<?php echo URL_STATIC;?>/img/icon_smk.png" height="45">
-                    </div>-->
-                    <div>
-                        <p class="fg-color-black">Proktor & Teknisi UNBK untuk sekolah jenjang SMK</p>
-                    </div>
-                </div>
-              </div>
-            </a>
-        </div>
-		
-
-

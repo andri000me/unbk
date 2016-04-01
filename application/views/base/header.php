@@ -34,8 +34,17 @@
 
 <body style="background-image: url('<?php echo URL_STATIC;?>/img/agsquare.png'); background-repeat: repeat;">
 <div class="container-fluid2">
-<nav class="navbar navbar-default navbar-static-top" role="navigation" style="padding-left: 15px; padding-right: 15px;  margin-right: -15px; margin-left: -15px;">
-    <div class="row">
+<div><center>
+<a href="<?php echo site_url();?>">
+  <img class="img-responsive" src="<?php echo URL_STATIC;?>/img/UN2016edit1a1.jpg">
+</a>
+</center></div>
+<br>
+
+<nav class=" navbar-default navbar-static-top" role="navigation" style="padding-left: 15px; padding-right: 15px;  margin-right: -15px; margin-left: -15px; min-height: 0px;">
+    <!--
+	<nav class="navbar navbar-default navbar-static-top" role="navigation" style="padding-left: 15px; padding-right: 15px;  margin-right: -15px; margin-left: -15px;">
+	<div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <div class="container-fluid">
@@ -50,7 +59,7 @@
                 <div class="collapse navbar-collapse" id="navbar1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="<?php echo site_url('/umum/jadwal');?>" title="Klik untuk melihat jadwal">
+                            <a href="<?php echo site_url('/umum/berita');?>" title="Klik untuk melihat jadwal">
                                 <span class="element brand place-right">
                                         <span id="date-widget"></span>
                                         <span id="clock-widget"></span>
@@ -63,16 +72,18 @@
         </div>
         <div class="col-md-1"></div>
     </div>
-</nav>
+	-->
+</nav> 
 
 <div class="col-md-12">
+<!--
     <div class="panel panel-danger">
         <div class="panel-heading">
             <style>.link-penting {color :white; font-style: italic;} .link-penting:hover{color :white; font-style: italic; text-decoration: underline;}</style>
             <center>Selamat datang di homepage Sahabat UNBK Surabaya 2016.<br>Situs ini dipersiapkan sebagai pusat informasi mengenai Ujian Nasional Berbasis Komputer tahun 2016 di Kota Surabaya.</center>
             
             <?php
-
+			
                 $list_pesan = array();
                 date_default_timezone_set('Asia/Jakarta');
                 $currentTime = mktime(date('H'), date('i'), date('s'), date('m'), date('d'), date('Y'));
@@ -188,8 +199,7 @@
                     'pesan' => "Daftar ulang pemenuhan pagu PPDB jalur sekolah kawasan: 9 Juli 2015 pkl. 08.00 - 14.00 WIB",
                     );
                 array_push($list_pesan, $pesan);
-
-                
+ 
             ?>
             <?php if (!strpos($_SERVER['REQUEST_URI'], 'pendaftaran')): ?>
             <center>
@@ -207,7 +217,8 @@
                 </a>
             </center>
             <?php endif; ?>
+			
         </div>
-    </div>
-
+    </div> 
+	-->
 </div>

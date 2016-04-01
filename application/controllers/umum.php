@@ -37,7 +37,19 @@ class Umum extends MY_Controller {
         $data["page_title"] = "Juknis";
         $this->template->display_home('umum/sambutan', $data);
     }
+	
+	 public function juknis_sd() {
+        $data = $this->data;
+        $data["page_title"] = "Juknis US SD";
+        $this->template->display_home('umum/juknis_sd', $data);
+    }
 
+	public function juknis_unpk() {
+        $data = $this->data;
+        $data["page_title"] = "Juknis UNPK";
+        $this->template->display_home('umum/juknis_unpk', $data);
+    }
+	
     public function berita($urutan=0) {
         $data= $this->data;
         if(!is_numeric($urutan) || intval($urutan)<0) redirect('/umum/berita');

@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = "http://222.124.169.6/unbk";
+$config['base_url'] = "http://";
 
 /*
 |--------------------------------------------------------------------------

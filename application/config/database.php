@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = '';
+$db['default']['password'] = 'adminpluto';
 $db['default']['database'] = 'unbk';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
@@ -66,7 +66,7 @@ $db['default']['stricton'] = FALSE;
 
 $db['blade_sd']['hostname'] = 'localhost';
 $db['blade_sd']['username'] = 'root';
-$db['blade_sd']['password'] = '';
+$db['blade_sd']['password'] = 'adminpluto';
 $db['blade_sd']['database'] = 'ppdb';
 $db['blade_sd']['dbdriver'] = 'mysqli';
 $db['blade_sd']['dbprefix'] = '';

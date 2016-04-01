@@ -1,0 +1,40 @@
+<div class="row" id="header-isi">
+    <div class="col-sm-12">
+        <div>
+            <a href="<?php echo base_url();?>" title="kembali ke halaman utama"><span style="margin-right:10px;" class="fa fa-home"></span>halaman utama</a>
+            <h1>PEDOMAN TEKNIS</h1>
+            <h3>PENYELENGGARAAN UJIAN SEKOLAH/MADRASAH (US/M) SD/MI</h3>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <p style="text-align: center;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><b>UJIAN SEKOLAH/MADRASAH (US/M) SD/MI</b><br /><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><b>TAHUN PELAJARAN 2015/2016</b><br /></span></span></p>
+<p><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;">Dalam pedoman teknis ini yang dimaksud dengan: </span></span></span></span></span></p>
+<ol>
+	<li>Ujian Sekolah/Madrasah atau bentuk lain yang sederajat, selanjutnya disebut US/M adalah kegiatan pengukuran dan penilaian kompetensi peserta didik untuk semua muatan/mata pelajaran dan muatan lokal;</li>
+	<li>Prosedur Operasional Standar, selanjutnya disebut POS adalah langkah baku yang mengatur teknis pelaksanaan serta menjadi dasar dan acuan dalam penyelenggaraan US/M;</li>
+	<li>Standar Nasional Pendidikan adalah kriteria minimal tentang sistem pendidikan di seluruh wilayah hukum Negara Kesatuan Republik Indonesia;</li>
+	<li>Satuan Pendidikan adalah Sekolah Dasar yang selanjutnya disebut SD, Madrasah Ibtidaiyah yang selanjutnya disebut MI, Sekolah Dasar Luar Biasa yang selanjutnya disebut SDLB.</li>
+	<li>Kriteria Kelulusan adalah ketercapaian minimal persyaratan kelulusan peserta didik;</li>
+	<li>US/M Susulan adalah US/M yang dilaksanakan bagi peserta didik yang berhalangan mengikuti US/M karena alasan tertentu dan disertai bukti yang sah;</li>
+	<li>Kisi-kisi US/M adalah acuan dalam penyusunan dan perakitan Paket Soal yang disusun berdasarkan Standar Kompetensi dan Kompetensi Dasar dalam Standar Isi;</li>
+	<li>Bahan US/M adalah bahan yang digunakan dalam penyelenggaraan US/M yang terdiri atas Paket Soal, Lembar Jawaban US/M, daftar hadir, berita acara, amplop pengembalian lembar jawaban, pakta integritas, dan tata tertib;</li>
+	<li>Paket Soal US/M adalah seperangkat soal yang digunakan pada US/M;</li>
+	<li>Lembar Jawaban US/M yang selanjutnya disebut LJUS/M adalah lembaran kertas yang digunakan oleh peserta ujian untuk menjawab soal US/M dan dapat dipindai;</li>
+	<li>Daftar satuan pendidikan penyelenggara US/M yang selanjutnya disebut DSPP-US/M adalah daftar yang memuat penyelenggara US/M;</li>
+	<li>Daftar Nominasi Sementara yang selanjutnya disebut DNS adalah daftar yang memuat calon peserta US/M sementara;</li>
+	<li>Daftar Nominasi Tetap yang selanjutnya disebut DNT adalah daftar yang memuat calon peserta tetap US/M;</li>
+	<li>Daftar Kolektif Hasil Ujian Sekolah/Madrasah yang selanjutnya disebut DKHUS/M adalah daftar yang memuat hasil US/M;</li>
+	<li>Ijazah adalah dokumen/sertifikat pencapaian kompetensi akhir peserta didik yang berisi keterangan: penyelesaian seluruh program pembelajaran; perolehan nilai minimal baik pada penilaian akhir dan lulus US/M;</li>
+	<li>Penyelenggara US/M adalah Satuan Pendidikan, Pemerintah Kabupaten/Kota, Kantor Kementerian Agama, Pemerintah Provinsi, Kantor Wilayah Kementerian Agama.</li>
+	<li>Provinsi adalah pemerintah provinsi;</li>
+	<li>Kabupaten/kota adalah pemerintah kabupaten/kota;</li>
+	<li>Badan adalah Badan Penelitian dan Pengembangan;</li>
+	<li>Kementerian adalah Kementerian Pendidikan dan Kebudayaan.</li>
+	<li>Menteri adalah Menteri Pendidikan dan Kebudayaan.</li>
+</ol>
+<p><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;"><span style="font-size: 12pt; color: #000000; font-style: normal; font-variant: normal;">Petunjuk lengkapnya berdasarkan <a title="Donis US SD Tahun 2015-2016" href="http://dispendik.surabaya.go.id/USSD2016.docx" target="_blank">Pedoman Teknis Ujian Sekolah SD/MI Tahun 2015-2016</a> .</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+    </div>
+</div>                   

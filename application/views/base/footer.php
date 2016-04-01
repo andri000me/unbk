@@ -1,25 +1,4 @@
-<div>
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="sponsor col-md-10">
-      <!-- <div class="col-md-2">
-        <h4>Didukung oleh :</h4>
-        <a href="http://its.ac.id/" target="_blank">
-            <img src="<?php echo URL_STATIC;?>/img/logo-its.jpg" style="width:150px;" alt="ITS"/>
-        </a>
-      </div>
-		-->
-      <!--<div class="col-md-8">
-        <a href="http://www.telkom.co.id" target="_blank" class="padding5" ><img src="<?php echo URL_STATIC;?>/img/logo-telkom.jpg"></a>
-        <a href="#" class="padding5" ><img src="<?php echo URL_STATIC;?>/img/logo-hitech.png"></a>
-        <a href="http://www.rad.net.id" target="_blank" class="padding5" ><img src="<?php echo URL_STATIC;?>/img/logo-radnet.png"></a>
-        <a href="http://www.telkomflexi.com" target="_blank" class="padding5" ><img src="<?php echo URL_STATIC;?>/img/logo-flexi.jpg"></a>
-        <a href="http://www.telkomsel.com" target="_blank" class="padding5" ><img src="<?php echo URL_STATIC;?>/img/logo-telkomsel.jpg"></a>
-      </div>-->
-    </div>
-    <div class="col-md-1"></div>
-  </div>
-</div>
+
 <div class="footer" style="padding-left: 15px; padding-right: 15px;  margin-right: -15px; margin-left: -15px;">
   <div class="row">
     <div class="col-md-1"></div>
@@ -71,7 +50,6 @@ var bulan = new Array("Januari", "Februari", "Maret", "April", "Mei", "Juni", "J
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
 </script>
     </body>
 </html>

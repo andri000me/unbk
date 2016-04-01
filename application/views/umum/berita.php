@@ -1,7 +1,7 @@
 <div class="row" id="header-isi">
     <div>
         <a href="<?php echo base_url();?>" title="kembali ke halaman utama"><span style="margin-right:10px;" class="fa fa-home"></span>halaman utama</a>
-        <h1>Jadwal UNBK 2016</h1>
+        <h1>Jadwal Ujian Nasional 2015-2016</h1>
     </div>
 </div>
 
@@ -10,11 +10,11 @@
     <div>
         <div class="panel panel-danger">
           <div class="panel-heading">
-            <h1 class="panel-title">Jadwal Pelaksanaan Ujian Nasional Berbasis Komputer 2016</h1>
+            <h1 class="panel-title">Jadwal Pelaksanaan Ujian Nasional Tahun Pelajaran 2015-2016</h1>
           </div>
           <div class="panel-body">
             <p align="justify">
-			  <img class="img-responsive" src="http://unbk.kemdikbud.go.id/images/posts/Jadwal_UNBK_2016_baru.jpg" alt="" width="800" /></p>
+			  <img class="img-responsive" src="http://dispendik.surabaya.go.id/UN2016.jpg" alt="" width="800" /></p>
             </p>
           </div>
         </div>

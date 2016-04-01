@@ -278,15 +278,28 @@ class Unbk_model extends CI_Model {
         }
     }
 
-    /*najib : fungsi rekap*/
+	function data_unpk($tabel, $jenjang, $paket){
+		
+        $this->db->select('*');
+		$this->db->like('jenis_paket', $paket); 
+		$this->db->from($tabel);
+		$this->db->join('lembaga_unpk',$tabel.'.kode_skb = lembaga_unpk.kode_skb');
+
+        $getData = $this->db->get('');
+
+        if($getData->num_rows() > 0)
+            return $getData->result_array();
+        else
+            return null;
+    }
+	
+    
     function rekapData($jenjang, $perPage, $uri){
         $this->db->select('*');
         $this->db->from('sekolah_unbk');
         $this->db->join('data_unbk', 'data_unbk.npsn=sekolah_unbk.npsn');
         $where = array('jenjang' => $jenjang);
-        // if(!empty($noUn)) {
-        //     $where = array('input_uasbn' => $noUn);
-        // }
+        
         $this->db->where($where);
 
         $getData = $this->db->get('', $perPage, $uri);
@@ -301,11 +314,13 @@ class Unbk_model extends CI_Model {
         $this->db->select('*');
         $this->db->from('sekolah_unbk');
         $this->db->join('petugas_unbk', 'petugas_unbk.npsn=sekolah_unbk.npsn');
-        $where = array('jenjang' => $jenjang);
+        $where = array('jenjang' => $jenjang, 'aktif' => 1);
         // if(!empty($noUn)) {
         //     $where = array('input_uasbn' => $noUn);
         // }
         $this->db->where($where);
+		$this->db->order_by('sekolah_unbk.nama_sekolah');
+		$this->db->order_by('petugas_unbk.jabatan');
 
         $getData = $this->db->get('', $perPage, $uri);
 
@@ -320,7 +335,7 @@ class Unbk_model extends CI_Model {
 		$this->db->count('*');
         $this->db->from('sekolah_unbk');
         $this->db->join('petugas_unbk', 'petugas_unbk.npsn=sekolah_unbk.npsn');
-        $this->db->where(array('jenjang' => $jenjang));
+        $this->db->where(array('jenjang' => $jenjang, 'aktif' => 1));
 		return $this->db->count_all_num_rows();
 	}
 
